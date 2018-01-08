@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="10/16/2015 17:59:10" ReportInfo.Modified="06/11/2016 10:13:17" ReportInfo.CreatorVersion="1.6.2.0">
+  <Dictionary>
+    <TableDataSource Name="TaskQuery" ReferenceName="TaskQuery" DataType="System.Int32" Enabled="true">
+      <Column Name="TaskNo" DataType="System.String"/>
+      <Column Name="BillID" DataType="System.String"/>
+      <Column Name="TaskDate" DataType="System.DateTime"/>
+      <Column Name="FinishDate" DataType="System.DateTime"/>
+      <Column Name="BillTypeName" DataType="System.String"/>
+      <Column Name="StateDesc" DataType="System.String"/>
+      <Column Name="FromStation" DataType="System.String"/>
+      <Column Name="BarCode" DataType="System.String"/>
+      <Column Name="Weight" DataType="System.Decimal"/>
+      <Column Name="ModelNo" DataType="System.String"/>
+      <Column Name="Spec" DataType="System.String"/>
+      <Column Name="Propertity" DataType="System.String"/>
+      <Column Name="ValidPeriod" DataType="System.String"/>
+      <Column Name="PartNo" DataType="System.String"/>
+      <Column Name="StandardNo" DataType="System.String"/>
+      <Column Name="ProductNo" DataType="System.String"/>
+      <Column Name="ProductEName" DataType="System.String"/>
+      <Column Name="ProductName" DataType="System.String"/>
+      <Column Name="CraneName" DataType="System.String"/>
+      <Column Name="Quantity" DataType="System.Int32"/>
+    </TableDataSource>
+    <Total Name="TotalQty" Expression="[TaskQuery.Quantity]" Evaluator="Data1" PrintOn="ReportSummary1"/>
+    <Total Name="TotalWeight" Expression="[TaskQuery.Weight]" Evaluator="Data1" PrintOn="ReportSummary1"/>
+  </Dictionary>
+  <ReportPage Name="Page1" Landscape="true" PaperWidth="297" PaperHeight="210" LeftMargin="1" RightMargin="1">
+    <PageHeaderBand Name="PageHeader1" Width="1115.1" Height="59.56">
+      <TextObject Name="Text1" Left="-0.02" Top="7.5" Width="1103.76" Height="26.48" Text="任务查询表" HorzAlign="Center" VertAlign="Center" Font="宋体, 16pt"/>
+      <TableObject Name="Table1" Top="35.35" Width="1107.99" Height="24.21">
+        <TableColumn Name="Column1" Width="79"/>
+        <TableColumn Name="Column34" Width="213.19"/>
+        <TableColumn Name="Column2" Width="125.5"/>
+        <TableColumn Name="Column3" Width="38.56"/>
+        <TableColumn Name="Column4" Width="77.87"/>
+        <TableColumn Name="Column5" Width="137.59"/>
+        <TableColumn Name="Column9" Width="76.36"/>
+        <TableColumn Name="Column10" Width="60.1"/>
+        <TableColumn Name="Column12" Width="59.55"/>
+        <TableColumn Name="Column32" Width="69.93"/>
+        <TableColumn Name="Column48" Width="66.53"/>
+        <TableColumn Name="Column15" Width="103.81"/>
+        <TableRow Name="Row1" Height="24.21">
+          <TableCell Name="Cell1" Border.Lines="All" Text="任务号" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell2" Border.Lines="All" Text="规格" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell3" Border.Lines="All" Text="熔次卷号" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell4" Border.Lines="All" Text="数量" HorzAlign="Right" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell5" Border.Lines="All" Text="重量" HorzAlign="Right" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell29" Border.Lines="All" Text="完成时间" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell30" Border.Lines="All" Text="货位" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell32" Border.Lines="All" Text="任务状态" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell52" Border.Lines="All" Text="单据类型" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell68" Border.Lines="All" Text="作业时间" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell35" Border.Lines="All" Text="物料编号" HorzAlign="Right" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell54" Border.Lines="All" Text="单据编号" VertAlign="Center" Font="宋体, 9pt"/>
+        </TableRow>
+      </TableObject>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="63.56" Width="1115.1" Height="29.52" CanGrow="true" CanBreak="true" DataSource="TaskQuery">
+      <TableObject Name="Table4" Width="1107.99" Height="29.52">
+        <TableColumn Name="Column62" Width="79"/>
+        <TableColumn Name="Column63" Width="213.19"/>
+        <TableColumn Name="Column64" Width="125.5"/>
+        <TableColumn Name="Column65" Width="38.56"/>
+        <TableColumn Name="Column66" Width="77.87"/>
+        <TableColumn Name="Column67" Width="137.59"/>
+        <TableColumn Name="Column68" Width="76.36"/>
+        <TableColumn Name="Column69" Width="60.1"/>
+        <TableColumn Name="Column70" Width="59.55"/>
+        <TableColumn Name="Column71" Width="69.93"/>
+        <TableColumn Name="Column72" Width="66.53"/>
+        <TableColumn Name="Column73" Width="103.81"/>
+        <TableRow Name="Row4" Height="29.52">
+          <TableCell Name="Cell82" Border.Lines="All" Text="[TaskQuery.TaskNo]" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell83" Border.Lines="All" Text="[TaskQuery.Spec]" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell84" Border.Lines="All" Text="[TaskQuery.BarCode]" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell85" Border.Lines="All" Text="[TaskQuery.Quantity]" HorzAlign="Right" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell86" Border.Lines="All" Text="[TaskQuery.Weight]" HorzAlign="Right" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell87" Border.Lines="All" Text="[IIf(Year([TaskQuery.FinishDate])==1,&quot;&quot;,FormatDateTime([TaskQuery.FinishDate],&quot;yyyy/MM/DD HH:mm:ss&quot;))]&#13;&#10;" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell88" Border.Lines="All" Text="[TaskQuery.FromStation]" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell89" Border.Lines="All" Text="[TaskQuery.StateDesc]" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell90" Border.Lines="All" Text="[TaskQuery.BillTypeName]" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell91" Border.Lines="All" Text="[IIf(Year([TaskQuery.TaskDate])==1,&quot;&quot;,FormatDateTime([TaskQuery.TaskDate],&quot;Short Date&quot;))]&#13;&#10;" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell92" Border.Lines="All" Text="[TaskQuery.ProductNo]" HorzAlign="Right" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell93" Border.Lines="All" Text="[TaskQuery.BillID]" VertAlign="Center" Font="宋体, 9pt"/>
+        </TableRow>
+      </TableObject>
+    </DataBand>
+    <ReportSummaryBand Name="ReportSummary1" Top="97.08" Width="1115.1" Height="29.51">
+      <TableObject Name="Table5" Top="-0.01" Width="1107.99" Height="29.52">
+        <TableColumn Name="Column74" Width="79"/>
+        <TableColumn Name="Column75" Width="213.19"/>
+        <TableColumn Name="Column76" Width="125.5"/>
+        <TableColumn Name="Column77" Width="38.56"/>
+        <TableColumn Name="Column78" Width="77.87"/>
+        <TableColumn Name="Column79" Width="137.59"/>
+        <TableColumn Name="Column80" Width="76.36"/>
+        <TableColumn Name="Column81" Width="60.1"/>
+        <TableColumn Name="Column82" Width="59.55"/>
+        <TableColumn Name="Column83" Width="69.93"/>
+        <TableColumn Name="Column84" Width="66.53"/>
+        <TableColumn Name="Column85" Width="103.81"/>
+        <TableRow Name="Row5" Height="29.52">
+          <TableCell Name="Cell94" Border.Lines="All" Text="合计：" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell95" Border.Lines="All" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell96" Border.Lines="All" Text="[TotalQty]" HorzAlign="Right" VertAlign="Center" Font="宋体, 9pt" ColSpan="2"/>
+          <TableCell Name="Cell97" Border.Lines="All" HorzAlign="Right" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell98" Border.Lines="All" Text="[TotalWeight]" HorzAlign="Right" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell99" Border.Lines="All" VertAlign="Center" Font="宋体, 9pt" ColSpan="7"/>
+          <TableCell Name="Cell100" Border.Lines="All" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell101" Border.Lines="All" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell102" Border.Lines="All" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell103" Border.Lines="All" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell104" Border.Lines="All" HorzAlign="Right" VertAlign="Center" Font="宋体, 9pt"/>
+          <TableCell Name="Cell105" Border.Lines="All" VertAlign="Center" Font="宋体, 9pt"/>
+        </TableRow>
+      </TableObject>
+    </ReportSummaryBand>
+    <PageFooterBand Name="PageFooter1" Top="130.59" Width="1115.1" Height="18.9"/>
+  </ReportPage>
+</Report>

@@ -1,0 +1,46 @@
+﻿body .header .topNav
+{
+    position:absolute;right:15px;top:2px;  
+    font-family:微软雅黑;      
+    font-size:14px;
+    line-height:25px;
+}
+    
+.header .topNav a 
+{
+    text-decoration:none;
+    color:#5384bb;
+    font-family:微软雅黑;
+    font-weight:bold;
+    font-size:13px;
+    line-height:25px;
+    margin-left:3px;
+    margin-right:3px;
+}   
+    
+.header .topNav a:hover
+{
+    text-decoration:underline;
+    color:red;
+}
+
+a{
+	color: #006699;
+	text-decoration: none;
+}
+
+a:link{
+	color: #006699;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #006699;
+	text-decoration: none;
+}
+
+a:hover{
+	color: Red;
+	text-decoration: underline;
+}
+

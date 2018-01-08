@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+  <TCPServer IP="192.168.3.3" Port="6041" />
+  <Parse Type="App.exe,App.Dispatching.TCPMessageParse" />
+</Config>

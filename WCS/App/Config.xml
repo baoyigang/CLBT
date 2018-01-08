@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <LogLevel>DEBUG</LogLevel>
+  <Attributes>
+    <Attribute Name="ScanPortName" Value="COM2" />
+    <Attribute Name="ScanBaudRate" Value="19200" />
+    <Attribute Name="TaskTest" Value="1" />
+    <Attribute Name="AreaCode" Value="001" />
+  </Attributes>
+  <Services>
+    <Service Name="CranePLC1" Type="MCP.Service.Siemens.dll, MCP.Service.Siemens.OPCService" ConfigFile="CranePLC1.xml" />
+    <Service Name="CranePLC2" Type="MCP.Service.Siemens.dll, MCP.Service.Siemens.OPCService" ConfigFile="CranePLC2.xml" />
+    <Service Name="ERP" Type="MCP.Service.TCP.dll, MCP.Service.TCP.TCPClient" ConfigFile="ERP.xml" />
+  </Services>
+  <Processes>
+ <!--堆垛机Process-->
+    <Process Name="CraneProcess" Type="App.exe, App.Dispatching.Process.CraneProcess">
+      <Item ServiceName="CranePLC1" ItemName="CraneTaskFinished" />
+      <Item ServiceName="CranePLC2" ItemName="CraneTaskFinished" />
+    </Process>
+    <Process Name="ErpProcess" Type="App.exe, App.Dispatching.Process.ErpProcess">
+      <Item ServiceName="ERP" ItemName="InStock" />
+      <Item ServiceName="ERP" ItemName="OutStock" />
+      <Item ServiceName="ERP" ItemName="CheckStock" />
+      <Item ServiceName="ERP" ItemName="" />
+    </Process>
+  </Processes>
+</Configuration>

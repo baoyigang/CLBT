@@ -1,0 +1,134 @@
+2017/12/7 11:13:32 :  send: ---> <?xml version="1.0" encoding="GB2312" standalone="yes"?>
+<DATASETS>
+<Operation>BatchInStock</Operation>
+<DATASET>
+<BatchNo>CB-0670929A1-B1</BatchNo>
+<ProductCode>01010101</ProductCode>
+<AreaCode>001</AreaCode>
+<CellCode>006001001</CellCode>
+</DATASET>
+</DATASETS>
+}
+2017/12/7 12:14:27 :  send: ---> <?xml version="1.0" encoding="GB2312" standalone="yes"?>
+<DATASETS>
+<Operation>BatchInStock</Operation>
+<DATASET>
+<BatchNo>CB-0670929A1-B1</BatchNo>
+<ProductCode>01010101</ProductCode>
+<AreaCode>001</AreaCode>
+<CellCode>006001001</CellCode>
+</DATASET>
+</DATASETS>
+}
+2017/12/7 12:21:04 :  send: ---> <?xml version="1.0" encoding="GB2312" standalone="yes"?>
+<DATASETS>
+<Operation>BatchInStock</Operation>
+<DATASET>
+<BatchNo>CB-0670929A1-B1</BatchNo>
+<ProductCode>01010101</ProductCode>
+<AreaCode>001</AreaCode>
+<CellCode>006001001</CellCode>
+</DATASET>
+</DATASETS>
+}
+2017/12/7 12:22:04 :  send: ---> <?xml version="1.0" encoding="GB2312" standalone="yes"?>
+<DATASETS>
+<Operation>BatchInStock</Operation>
+<DATASET>
+<BatchNo>CB-0670929A1-B1</BatchNo>
+<ProductCode>01010101</ProductCode>
+<AreaCode>001</AreaCode>
+<CellCode>006001001</CellCode>
+</DATASET>
+</DATASETS>
+}
+2017/12/7 12:22:15 :  send: ---> <?xml version="1.0" encoding="GB2312" standalone="yes"?>
+<DATASETS>
+<Operation>BatchInStock</Operation>
+<DATASET>
+<BatchNo>CB-0670929A1-B1</BatchNo>
+<ProductCode>01010101</ProductCode>
+<AreaCode>001</AreaCode>
+<CellCode>006001001</CellCode>
+</DATASET>
+</DATASETS>
+}
+2017/12/7 12:24:34 :  send: ---> <?xml version="1.0" encoding="GB2312" standalone="yes"?>
+<DATASETS>
+<Operation>BatchInStock</Operation>
+<DATASET>
+<BatchNo>CB-0670929A1-B1</BatchNo>
+<ProductCode>01010101</ProductCode>
+<AreaCode>001</AreaCode>
+<CellCode>006001001</CellCode>
+</DATASET>
+</DATASETS>
+}
+2017/12/7 12:33:57 :  send: ---> <?xml version="1.0" encoding="GB2312" standalone="yes"?>
+<DATASETS>
+<Operation>BatchInStock</Operation>
+<DATASET>
+<BatchNo>CB-0670929A1-B1</BatchNo>
+<ProductCode>01010101</ProductCode>
+<AreaCode>001</AreaCode>
+<CellCode>006001001</CellCode>
+</DATASET>
+</DATASETS>
+}
+2017/12/7 13:45:34 :  send: ---> <?xml version="1.0" encoding="GB2312" standalone="yes"?>
+<DATASETS>
+<Operation>BatchInStock</Operation>
+<DATASET>
+<BatchNo>CB-0670929A1-B1</BatchNo>
+<ProductCode>01010101</ProductCode>
+<AreaCode>001</AreaCode>
+<CellCode>006001001</CellCode>
+</DATASET>
+</DATASETS>
+}
+2017/12/7 13:45:44 :  send: ---> <?xml version="1.0" encoding="GB2312" standalone="yes"?>
+<DATASETS>
+<Operation>BatchInStock</Operation>
+<DATASET>
+<BatchNo>CB-0670929A1-B1</BatchNo>
+<ProductCode>01010101</ProductCode>
+<AreaCode>001</AreaCode>
+<CellCode>006001001</CellCode>
+</DATASET>
+</DATASETS>
+}
+2017/12/7 14:46:31 :  send: ---> <?xml version="1.0" encoding="GB2312" standalone="yes"?>
+<DATASETS>
+<Operation>BatchInStock</Operation>
+<DATASET>
+<BatchNo>CB-0670929A1-B1</BatchNo>
+<ProductCode>01010101</ProductCode>
+<AreaCode>001</AreaCode>
+<CellCode>006001001</CellCode>
+</DATASET>
+</DATASETS>
+}
+2017/12/7 14:48:14 :  send: ---> <?xml version="1.0" encoding="GB2312" standalone="yes"?>
+<DATASETS>
+<Operation>BatchInStock</Operation>
+<DATASET>
+<BatchNo>CB-0670929A1-B1</BatchNo>
+<ProductCode>01010101</ProductCode>
+<AreaCode>001</AreaCode>
+<CellCode>006001001</CellCode>
+</DATASET>
+</DATASETS>
+}
+2017/12/7 14:57:45 :  send: ---> <?xml version="1.0" encoding="GB2312" standalone="yes"?>
+<DATASETS>
+<Operation>BatchInStock</Operation>
+<DATASET>
+<BatchNo>CB-0670929A1-B1</BatchNo>
+<ProductCode>01010101</ProductCode>
+<AreaCode>001</AreaCode>
+<CellCode>006001001</CellCode>
+</DATASET>
+</DATASETS>
+}
+2017/12/7 14:57:46 :  recv: <--- InStock,CB-0670929A1-B1,Y,成功！
+

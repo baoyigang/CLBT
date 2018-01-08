@@ -1,0 +1,435 @@
+﻿/* 刷新*/
+.ButtonRefresh
+{
+    font-family: "微软雅黑"; 
+    font-size:10pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+    background-image:url(../images/op/refresh.png); 
+    background-repeat:no-repeat;
+    CURSOR: pointer; 
+    padding-left:18px;
+    font-style: normal ; 
+    line-height:16px;
+    height:16px;
+    vertical-align:middle;
+}
+.ButtonReset
+{
+    font-family: "微软雅黑"; 
+    font-size:10pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+    background-image:url(../images/op/Reset.png); 
+    background-repeat:no-repeat;
+    CURSOR: pointer; 
+    padding-left:18px;
+    font-style: normal ; 
+    line-height:16px;
+    height:16px;
+    vertical-align:middle;
+}
+
+/* 返回*/
+.ButtonBack
+{
+    font-family: "微软雅黑", "宋体"; 
+    font-size:10pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+    background-image:url(../images/op/back.png); 
+    background-repeat:no-repeat;
+    CURSOR: pointer; 
+    padding-left:18px;
+    font-style: normal ; 
+    height:16px;
+    line-height:16px;
+    vertical-align:middle;
+}
+
+/* 取消*/
+.ButtonCancel
+{
+    font-family: "微软雅黑", "宋体"; 
+    font-size:10pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+    background-image:url(../images/op/cancel.png); 
+    background-repeat:no-repeat;
+    CURSOR: pointer; 
+    padding-left:18px;
+    font-style: normal ; 
+    height:16px;
+    line-height:16px;
+    vertical-align:middle;
+} 
+
+/* 清空所有*/
+.ButtonClearAll
+{
+    font-family: "微软雅黑", "宋体"; 
+    font-size:10pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+    background-image:url(../images/op/trash.gif); 
+    background-repeat:no-repeat;
+    CURSOR: pointer; 
+    padding-left:18px;
+    font-style: normal ; 
+    height:16px;
+    line-height:16px;
+    vertical-align:middle;
+} 
+
+/* 保存*/
+.ButtonSave
+{
+    font-family: "微软雅黑", "宋体"; 
+    font-size:10pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+    background-image:url('../images/op/save.png'); 
+    background-repeat:no-repeat;
+    CURSOR: pointer; 
+    padding-left:18px;
+    font-style: normal; 
+    height:16px;
+    line-height:16px;
+    vertical-align:middle;
+}
+
+
+/* 新建*/
+.ButtonCreate
+{
+    font-family: "微软雅黑", "宋体"; 
+    font-size:10pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+    background-image:url('../images/op/create.png'); 
+    background-repeat:no-repeat;
+    cursor: pointer; 
+    padding-left:20px;
+    font-style: normal;
+    height:16px;
+    line-height:16px;
+    vertical-align:middle;
+}
+
+/* 修改*/
+.ButtonModify
+{
+    font-family: "微软雅黑", "宋体"; 
+    font-size:10pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+    background-image:url(../images/op/modify.gif); 
+    background-repeat:no-repeat;
+    CURSOR: pointer; 
+    padding-left:20px;
+    font-style: normal ; 
+    height:16px;
+    line-height:16px;
+    vertical-align:middle;
+}
+
+/* 删除*/
+.ButtonDel
+{
+    font-family: "微软雅黑", "宋体"; 
+    font-size:10pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+    background-image:url(../images/op/del.png); 
+    background-repeat:no-repeat;
+    CURSOR: pointer; 
+    padding-left:20px;
+    font-style: normal ; 
+    height:16px;
+    line-height:16px;
+    vertical-align:middle;
+}
+
+/* 下载 */
+.ButtonDown
+{
+	font-family: "微软雅黑", "宋体"; 
+    font-size:10pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+    background-image:url(../images/op/down.jpg); 
+    background-repeat:no-repeat;
+    CURSOR: pointer; 
+    padding-left:20px;
+    font-style: normal ; 
+    height:16px;
+    line-height:16px;
+    vertical-align:middle;
+}
+
+/* 导出到EXCEL*/
+.ButtonExport
+{
+    font-family: "微软雅黑", "宋体"; 
+    font-size:10pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+    background-image:url(../images/op/excel.gif); 
+    background-repeat:no-repeat;
+    CURSOR: pointer; 
+    padding-left:20px;
+    font-style: normal ; 
+    height:16px;
+    line-height:16px;
+    vertical-align:middle;
+}
+
+/* 打印*/
+.ButtonPrint
+{
+    font-family: "微软雅黑", "宋体"; 
+    font-size:10pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+    background-image:url(../images/op/print.png); 
+    background-repeat:no-repeat;
+    CURSOR: pointer; 
+    padding-left:20px;
+    font-style: normal ; 
+    height:16px;
+    line-height:16px;
+    vertical-align:middle;
+    
+	width:0px;
+	height:0px;
+	display:none;
+}
+
+/* 查询*/
+.ButtonQuery
+{
+    font-family: "微软雅黑", "宋体"; 
+    font-size:10pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+    background-image:url('../images/op/query.png'); 
+    background-repeat:no-repeat;
+    CURSOR: pointer; 
+    padding-left:20px;
+    font-style: normal; 
+    line-height:16px;
+    height:16px;
+    vertical-align:middle;
+}
+
+/* 退出*/
+.ButtonExit
+{
+    font-family: "微软雅黑", "宋体"; 
+    font-size:10pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+    background-image:url(../images/op/exit.png); 
+    background-repeat:no-repeat;
+    CURSOR: pointer; 
+    padding-left:18px;
+    font-style: normal ; 
+    height:16px;
+    line-height:16px;
+    vertical-align:middle;
+}
+
+/* 审核*/
+.ButtonAudit
+{
+    font-family: "微软雅黑", "宋体"; 
+    font-size:10pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+    background-image:url('../images/op/check.png'); 
+    background-repeat:no-repeat;
+    CURSOR: pointer; 
+    padding-left:18px;
+    font-style: normal;
+    height:16px;
+    vertical-align:middle;
+}
+
+
+.ButtonAudit2
+{
+    font-family: "微软雅黑", "宋体"; 
+    font-size:10pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+    background-image:url(../images/op/uncheck.png); 
+    background-repeat:no-repeat;
+    CURSOR: pointer; 
+    padding-left:18px;
+    font-style: normal ; 
+    height:16px;
+    line-height:16px;
+    vertical-align:middle;
+}
+
+
+/* 浏览*/
+.ButtonBrowse
+{
+	font-family: "微软雅黑", "宋体"; 
+    font-size:10pt;  
+    border: 1px Gray solid; 
+    width:23px;
+    height:20px;
+}
+.ButtonBrowse2
+{
+    font-size:9pt;  
+    border: 0px Gray solid; 
+    width:18px;
+    height:22px;
+    background-image:url(../images/op/browse2.gif); 
+    background-repeat:no-repeat;
+}
+
+.ButtonOption
+{
+    border-bottom: #93bee2 1px solid;  
+    BORDER-LEFT: #93bee2 1px solid;  
+    BORDER-RIGHT: #93bee2 1px solid;  
+    BORDER-TOP: #93bee2 1px solid; 
+    background-color:Transparent;
+}
+
+.ButtonDate
+{
+    border: 0px #ff0000 solid; 
+    background-image:url(../images/op/Icon.DatePick.gif); 
+    background-repeat:no-repeat;
+    CURSOR: pointer; 
+    font-style: normal ; 
+    height:18px;
+    width:20px;
+}
+
+.ButtonImage
+{
+    border: 0px #ff0000 solid; 
+    background-image:url(../images/op/viewpic.gif); 
+    background-repeat:no-repeat;
+    CURSOR: pointer; 
+    font-style: normal ; 
+    height:18px;
+    width:18px;
+}
+
+.ButtonFirst
+{
+    font-family: "微软雅黑", "宋体"; 
+    font-size:9pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+    background-image:url(../images/op/first.png); 
+    background-repeat:no-repeat;
+    CURSOR: pointer; 
+    padding-left:16px;
+    font-style: normal ; 
+    height:16px;
+    vertical-align:middle;
+}
+/* 上一笔*/
+.ButtonPre
+{
+    font-family: "微软雅黑", "宋体"; 
+    font-size:9pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+    background-image:url(../images/op/previous.png); 
+    background-repeat:no-repeat;
+    CURSOR: pointer; 
+    padding-left:16px;
+    font-style: normal ; 
+    height:16px;
+    line-height:16px;
+    vertical-align:middle;
+}
+/* 下一笔*/
+.ButtonNext
+{
+    font-family: "微软雅黑", "宋体"; 
+    font-size:9pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+    background-image:url(../images/op/next.png); 
+    background-repeat:no-repeat;
+    CURSOR: pointer; 
+    padding-left:16px;
+    font-style: normal ; 
+    height:16px;
+    line-height:16px;
+    vertical-align:middle;
+}
+/* 尾笔*/
+.ButtonLast
+{
+    font-family: "微软雅黑", "宋体"; 
+    font-size:9pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+    background-image:url(../images/op/last.png); 
+    background-repeat:no-repeat;
+    CURSOR: pointer; 
+    padding-left:16px;
+    font-style: normal ; 
+    height:16px;
+    line-height:16px;
+    vertical-align:middle;
+}
+/* 下载 */
+.ButtonOk
+{
+	font-family: "微软雅黑", "宋体"; 
+    font-size:10pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+    background-image:url(../images/op/ok.png); 
+    background-repeat:no-repeat;
+    CURSOR: pointer; 
+    padding-left:20px;
+    font-style: normal ; 
+    height:16px;
+    line-height:16px;
+    vertical-align:middle;
+}
+/* 下载 */
+.ButtonSelect
+{
+	font-family: "微软雅黑", "宋体"; 
+    font-size:10pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+    background-image:url(../images/op/select.png); 
+    background-repeat:no-repeat;
+    CURSOR: pointer; 
+    padding-left:20px;
+    font-style: normal ; 
+    height:16px;
+    line-height:16px;
+    vertical-align:middle;
+}
+/* 上传*/
+.ButtonUpLoad
+{
+    font-family: "微软雅黑", "宋体"; 
+    font-size:9pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+    background-image:url(../images/op/upload.png); 
+    background-repeat:no-repeat;
+    CURSOR: pointer; 
+    padding-left:16px;
+    font-style: normal ; 
+    height:16px;
+    line-height:16px;
+    vertical-align:middle;
+}

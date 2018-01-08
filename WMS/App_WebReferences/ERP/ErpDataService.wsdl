@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="transBatchInStock">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BillID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="transBatchInStockResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="transBatchInStockResult" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="MSG" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="transBatchOutStock">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BillID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="transBatchOutStockResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="transBatchOutStockResult" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="MSG" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="transBatchCheckStock">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BillID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="transBatchCheckStockResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="transBatchCheckStockResult" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="MSG" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="transBatchInStockSoapIn">
+    <wsdl:part name="parameters" element="tns:transBatchInStock" />
+  </wsdl:message>
+  <wsdl:message name="transBatchInStockSoapOut">
+    <wsdl:part name="parameters" element="tns:transBatchInStockResponse" />
+  </wsdl:message>
+  <wsdl:message name="transBatchOutStockSoapIn">
+    <wsdl:part name="parameters" element="tns:transBatchOutStock" />
+  </wsdl:message>
+  <wsdl:message name="transBatchOutStockSoapOut">
+    <wsdl:part name="parameters" element="tns:transBatchOutStockResponse" />
+  </wsdl:message>
+  <wsdl:message name="transBatchCheckStockSoapIn">
+    <wsdl:part name="parameters" element="tns:transBatchCheckStock" />
+  </wsdl:message>
+  <wsdl:message name="transBatchCheckStockSoapOut">
+    <wsdl:part name="parameters" element="tns:transBatchCheckStockResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ErpDataServiceSoap">
+    <wsdl:operation name="transBatchInStock">
+      <wsdl:input message="tns:transBatchInStockSoapIn" />
+      <wsdl:output message="tns:transBatchInStockSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="transBatchOutStock">
+      <wsdl:input message="tns:transBatchOutStockSoapIn" />
+      <wsdl:output message="tns:transBatchOutStockSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="transBatchCheckStock">
+      <wsdl:input message="tns:transBatchCheckStockSoapIn" />
+      <wsdl:output message="tns:transBatchCheckStockSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ErpDataServiceSoap" type="tns:ErpDataServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="transBatchInStock">
+      <soap:operation soapAction="http://tempuri.org/transBatchInStock" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="transBatchOutStock">
+      <soap:operation soapAction="http://tempuri.org/transBatchOutStock" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="transBatchCheckStock">
+      <soap:operation soapAction="http://tempuri.org/transBatchCheckStock" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ErpDataServiceSoap12" type="tns:ErpDataServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="transBatchInStock">
+      <soap12:operation soapAction="http://tempuri.org/transBatchInStock" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="transBatchOutStock">
+      <soap12:operation soapAction="http://tempuri.org/transBatchOutStock" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="transBatchCheckStock">
+      <soap12:operation soapAction="http://tempuri.org/transBatchCheckStock" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ErpDataService">
+    <wsdl:port name="ErpDataServiceSoap" binding="tns:ErpDataServiceSoap">
+      <soap:address location="http://localhost:8862/ErpDataService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ErpDataServiceSoap12" binding="tns:ErpDataServiceSoap12">
+      <soap12:address location="http://localhost:8862/ErpDataService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

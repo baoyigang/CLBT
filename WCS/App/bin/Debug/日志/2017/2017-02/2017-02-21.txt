@@ -1,0 +1,127 @@
+2017/2/21 8:49:50 [ERROR]2017/2/21 8:49:50初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/21 8:49:57 [ERROR]2017/2/21 8:49:57Object reference not set to an instance of an object. 
+2017/2/21 8:50:03 [ERROR]2017/2/21 8:50:03Object reference not set to an instance of an object. 
+2017/2/21 8:50:19 [INFO]2017/2/21 8:50:19退出系统 
+2017/2/21 8:52:24 [ERROR]2017/2/21 8:52:24初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/21 8:52:27 [INFO]2017/2/21 8:52:27退出系统 
+2017/2/21 8:54:01 [ERROR]2017/2/21 8:54:01初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/21 8:54:08 [INFO]2017/2/21 8:54:08退出系统 
+2017/2/21 9:03:47 [ERROR]2017/2/21 9:03:47初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/21 9:03:49 [INFO]2017/2/21 9:03:49退出系统 
+2017/2/21 9:07:13 [ERROR]2017/2/21 9:07:13初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/21 9:07:17 [INFO]2017/2/21 9:07:17退出系统 
+2017/2/21 9:07:33 [ERROR]2017/2/21 9:07:33初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/21 9:07:36 [INFO]2017/2/21 9:07:36退出系统 
+2017/2/21 9:09:08 [ERROR]2017/2/21 9:09:08初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/21 9:18:26 [INFO]2017/2/21 9:18:26堆垛机联机 
+2017/2/21 9:18:28 [INFO]2017/2/21 9:18:28堆垛机脱机 
+2017/2/21 9:20:50 [INFO]2017/2/21 9:20:50退出系统 
+2017/2/21 9:37:14 [ERROR]2017/2/21 9:37:14初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/21 9:37:19 [ERROR]2017/2/21 9:37:19Object reference not set to an instance of an object. 
+2017/2/21 9:37:25 [ERROR]2017/2/21 9:37:25Object reference not set to an instance of an object. 
+2017/2/21 9:38:01 [ERROR]2017/2/21 9:38:01Object reference not set to an instance of an object. 
+2017/2/21 9:38:22 [ERROR]2017/2/21 9:38:22Object reference not set to an instance of an object. 
+2017/2/21 9:39:30 [ERROR]2017/2/21 9:39:30初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/21 9:39:32 [ERROR]2017/2/21 9:39:32Object reference not set to an instance of an object. 
+2017/2/21 9:39:39 [INFO]2017/2/21 9:39:39退出系统 
+2017/2/21 9:39:50 [ERROR]2017/2/21 9:39:50初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/21 9:40:06 [ERROR]2017/2/21 9:40:06初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/21 9:41:23 [ERROR]2017/2/21 9:41:23初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/21 9:41:29 [ERROR]2017/2/21 9:41:29Object reference not set to an instance of an object. 
+2017/2/21 9:41:35 [ERROR]2017/2/21 9:41:35Object reference not set to an instance of an object. 
+2017/2/21 11:28:26 [ERROR]2017/2/21 11:28:26初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/21 11:28:58 [INFO]2017/2/21 11:28:58退出系统 
+2017/2/21 12:02:25 [ERROR]2017/2/21 12:02:25初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/21 12:02:35 [INFO]2017/2/21 12:02:35退出系统 
+2017/2/21 12:10:56 [ERROR]2017/2/21 12:10:56初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/21 12:11:19 [ERROR]2017/2/21 12:11:19Object reference not set to an instance of an object. 
+2017/2/21 12:12:30 [ERROR]2017/2/21 12:12:30初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/21 12:12:44 [ERROR]2017/2/21 12:12:44此熔次卷号 CP-0171017B-1 不存在，或已经扫描入库！ 
+2017/2/21 12:20:25 [ERROR]2017/2/21 12:20:25初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/21 12:20:48 [ERROR]2017/2/21 12:20:48此熔次卷号 CP-0171017B-1 不存在，或已经扫描入库！ 
+2017/2/21 12:20:58 [ERROR]2017/2/21 12:20:58此熔次卷号 CP-0171017B-1 不存在，或已经扫描入库！ 
+2017/2/21 12:27:41 [ERROR]2017/2/21 12:27:41初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/21 12:27:44 [INFO]2017/2/21 12:27:44退出系统 
+2017/2/21 12:27:59 [ERROR]2017/2/21 12:27:59初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/21 12:28:02 [INFO]2017/2/21 12:28:02退出系统 
+2017/2/21 12:28:51 [ERROR]2017/2/21 12:28:51Object reference not set to an instance of an object. 
+2017/2/21 12:28:51 [ERROR]2017/2/21 12:28:51Object reference not set to an instance of an object. 
+2017/2/21 12:28:51 [ERROR]2017/2/21 12:28:51Object reference not set to an instance of an object. 
+2017/2/21 12:28:51 [ERROR]2017/2/21 12:28:51Object reference not set to an instance of an object. 
+2017/2/21 12:28:51 [ERROR]2017/2/21 12:28:51Object reference not set to an instance of an object. 
+2017/2/21 12:28:51 [ERROR]2017/2/21 12:28:51Object reference not set to an instance of an object. 
+2017/2/21 12:28:52 [ERROR]2017/2/21 12:28:52Object reference not set to an instance of an object. 
+2017/2/21 12:28:52 [ERROR]2017/2/21 12:28:52Object reference not set to an instance of an object. 
+2017/2/21 12:28:55 [ERROR]2017/2/21 12:28:55Object reference not set to an instance of an object. 
+2017/2/21 12:28:55 [ERROR]2017/2/21 12:28:55Object reference not set to an instance of an object. 
+2017/2/21 12:28:58 [ERROR]2017/2/21 12:28:58Object reference not set to an instance of an object. 
+2017/2/21 12:28:58 [ERROR]2017/2/21 12:28:58Object reference not set to an instance of an object. 
+2017/2/21 12:29:01 [ERROR]2017/2/21 12:29:01Object reference not set to an instance of an object. 
+2017/2/21 12:29:01 [ERROR]2017/2/21 12:29:01Object reference not set to an instance of an object. 
+2017/2/21 12:29:04 [ERROR]2017/2/21 12:29:04Object reference not set to an instance of an object. 
+2017/2/21 12:29:04 [ERROR]2017/2/21 12:29:04Object reference not set to an instance of an object. 
+2017/2/21 12:29:07 [ERROR]2017/2/21 12:29:07Object reference not set to an instance of an object. 
+2017/2/21 12:29:07 [ERROR]2017/2/21 12:29:07Object reference not set to an instance of an object. 
+2017/2/21 12:29:10 [ERROR]2017/2/21 12:29:10Object reference not set to an instance of an object. 
+2017/2/21 12:29:10 [ERROR]2017/2/21 12:29:10Object reference not set to an instance of an object. 
+2017/2/21 12:29:13 [ERROR]2017/2/21 12:29:13Object reference not set to an instance of an object. 
+2017/2/21 12:29:13 [ERROR]2017/2/21 12:29:13Object reference not set to an instance of an object. 
+2017/2/21 12:29:16 [ERROR]2017/2/21 12:29:16Object reference not set to an instance of an object. 
+2017/2/21 12:29:16 [ERROR]2017/2/21 12:29:16Object reference not set to an instance of an object. 
+2017/2/21 12:29:19 [ERROR]2017/2/21 12:29:19Object reference not set to an instance of an object. 
+2017/2/21 12:29:19 [ERROR]2017/2/21 12:29:19Object reference not set to an instance of an object. 
+2017/2/21 12:29:22 [ERROR]2017/2/21 12:29:22Object reference not set to an instance of an object. 
+2017/2/21 12:29:22 [ERROR]2017/2/21 12:29:22Object reference not set to an instance of an object. 
+2017/2/21 12:29:25 [ERROR]2017/2/21 12:29:25Object reference not set to an instance of an object. 
+2017/2/21 12:29:25 [ERROR]2017/2/21 12:29:25Object reference not set to an instance of an object. 
+2017/2/21 12:29:28 [ERROR]2017/2/21 12:29:28Object reference not set to an instance of an object. 
+2017/2/21 12:29:28 [ERROR]2017/2/21 12:29:28Object reference not set to an instance of an object. 
+2017/2/21 12:29:31 [ERROR]2017/2/21 12:29:31Object reference not set to an instance of an object. 
+2017/2/21 12:29:31 [ERROR]2017/2/21 12:29:31Object reference not set to an instance of an object. 
+2017/2/21 12:29:34 [ERROR]2017/2/21 12:29:34Object reference not set to an instance of an object. 
+2017/2/21 12:29:34 [ERROR]2017/2/21 12:29:34Object reference not set to an instance of an object. 
+2017/2/21 12:29:37 [ERROR]2017/2/21 12:29:37Object reference not set to an instance of an object. 
+2017/2/21 12:29:37 [ERROR]2017/2/21 12:29:37Object reference not set to an instance of an object. 
+2017/2/21 12:29:40 [ERROR]2017/2/21 12:29:40Object reference not set to an instance of an object. 
+2017/2/21 12:29:40 [ERROR]2017/2/21 12:29:40Object reference not set to an instance of an object. 
+2017/2/21 12:29:43 [ERROR]2017/2/21 12:29:43Object reference not set to an instance of an object. 
+2017/2/21 12:29:43 [ERROR]2017/2/21 12:29:43Object reference not set to an instance of an object. 
+2017/2/21 12:29:46 [ERROR]2017/2/21 12:29:46Object reference not set to an instance of an object. 
+2017/2/21 12:29:46 [ERROR]2017/2/21 12:29:46Object reference not set to an instance of an object. 
+2017/2/21 12:29:49 [ERROR]2017/2/21 12:29:49Object reference not set to an instance of an object. 
+2017/2/21 12:29:49 [ERROR]2017/2/21 12:29:49Object reference not set to an instance of an object. 
+2017/2/21 12:29:52 [ERROR]2017/2/21 12:29:52Object reference not set to an instance of an object. 
+2017/2/21 12:29:52 [ERROR]2017/2/21 12:29:52Object reference not set to an instance of an object. 
+2017/2/21 12:29:55 [ERROR]2017/2/21 12:29:55Object reference not set to an instance of an object. 
+2017/2/21 12:29:55 [ERROR]2017/2/21 12:29:55Object reference not set to an instance of an object. 
+2017/2/21 12:29:58 [ERROR]2017/2/21 12:29:58Object reference not set to an instance of an object. 
+2017/2/21 12:29:58 [ERROR]2017/2/21 12:29:58Object reference not set to an instance of an object. 
+2017/2/21 12:30:01 [ERROR]2017/2/21 12:30:01Object reference not set to an instance of an object. 
+2017/2/21 12:30:01 [ERROR]2017/2/21 12:30:01Object reference not set to an instance of an object. 
+2017/2/21 12:30:04 [ERROR]2017/2/21 12:30:04Object reference not set to an instance of an object. 
+2017/2/21 12:30:04 [ERROR]2017/2/21 12:30:04Object reference not set to an instance of an object. 
+2017/2/21 12:30:10 [ERROR]2017/2/21 12:30:07Object reference not set to an instance of an object. 
+2017/2/21 12:30:10 [ERROR]2017/2/21 12:30:10Object reference not set to an instance of an object. 
+2017/2/21 12:30:12 [ERROR]2017/2/21 12:30:12Object reference not set to an instance of an object. 
+2017/2/21 12:30:15 [ERROR]2017/2/21 12:30:15Object reference not set to an instance of an object. 
+2017/2/21 12:30:17 [ERROR]2017/2/21 12:30:17Object reference not set to an instance of an object. 
+2017/2/21 12:30:18 [ERROR]2017/2/21 12:30:18Object reference not set to an instance of an object. 
+2017/2/21 12:30:20 [ERROR]2017/2/21 12:30:20Object reference not set to an instance of an object. 
+2017/2/21 12:30:21 [ERROR]2017/2/21 12:30:21Object reference not set to an instance of an object. 
+2017/2/21 12:30:23 [ERROR]2017/2/21 12:30:23Object reference not set to an instance of an object. 
+2017/2/21 12:30:25 [ERROR]2017/2/21 12:30:25Object reference not set to an instance of an object. 
+2017/2/21 12:30:26 [ERROR]2017/2/21 12:30:26Object reference not set to an instance of an object. 
+2017/2/21 12:30:28 [ERROR]2017/2/21 12:30:28Object reference not set to an instance of an object. 
+2017/2/21 12:30:29 [ERROR]2017/2/21 12:30:29Object reference not set to an instance of an object. 
+2017/2/21 12:30:31 [ERROR]2017/2/21 12:30:31Object reference not set to an instance of an object. 
+2017/2/21 12:30:32 [ERROR]2017/2/21 12:30:32Object reference not set to an instance of an object. 
+2017/2/21 12:30:34 [ERROR]2017/2/21 12:30:34Object reference not set to an instance of an object. 
+2017/2/21 12:30:35 [ERROR]2017/2/21 12:30:35Object reference not set to an instance of an object. 
+2017/2/21 12:30:37 [ERROR]2017/2/21 12:30:37Object reference not set to an instance of an object. 
+2017/2/21 12:30:38 [ERROR]2017/2/21 12:30:38Object reference not set to an instance of an object. 
+2017/2/21 12:30:40 [ERROR]2017/2/21 12:30:40Object reference not set to an instance of an object. 
+2017/2/21 12:30:41 [ERROR]2017/2/21 12:30:41Object reference not set to an instance of an object. 
+2017/2/21 12:30:43 [ERROR]2017/2/21 12:30:43Object reference not set to an instance of an object. 
+2017/2/21 12:30:44 [INFO]2017/2/21 12:30:44退出系统 
+2017/2/21 14:39:47 [ERROR]2017/2/21 14:39:47初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/21 14:39:48 [INFO]2017/2/21 14:39:48退出系统 

@@ -1,0 +1,83 @@
+2017/11/29 11:14:39 [ERROR]2017/11/29 11:14:391号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 11:14:42 [ERROR]2017/11/29 11:14:422号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 11:16:17 [ERROR]2017/11/29 11:16:171号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 11:17:39 [ERROR]2017/11/29 11:17:391号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 11:21:58 [INFO]2017/11/29 11:21:58退出系统 
+2017/11/29 11:24:36 [INFO]2017/11/29 11:24:36退出系统 
+2017/11/29 11:29:30 [ERROR]2017/11/29 11:29:30接收对 http://localhost:8862/BLLBaseService.svc 的 HTTP 响应时发生错误。这可能是由于服务终结点绑定未使用 HTTP 协议造成的。这还可能是由于服务器中止了 HTTP 请求上下文(可能由于服务关闭)所致。有关详细信息，请参见服务器日志。 
+2017/11/29 11:29:37 [ERROR]2017/11/29 11:29:37没有终结点在侦听可以接受消息的 http://localhost:8862/BLLBaseService.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。 
+2017/11/29 11:29:42 [ERROR]2017/11/29 11:29:42没有终结点在侦听可以接受消息的 http://localhost:8862/BLLBaseService.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。 
+2017/11/29 11:29:47 [ERROR]2017/11/29 11:29:47没有终结点在侦听可以接受消息的 http://localhost:8862/BLLBaseService.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。 
+2017/11/29 11:29:52 [ERROR]2017/11/29 11:29:52没有终结点在侦听可以接受消息的 http://localhost:8862/BLLBaseService.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。 
+2017/11/29 11:29:57 [ERROR]2017/11/29 11:29:57没有终结点在侦听可以接受消息的 http://localhost:8862/BLLBaseService.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。 
+2017/11/29 11:30:03 [ERROR]2017/11/29 11:30:03没有终结点在侦听可以接受消息的 http://localhost:8862/BLLBaseService.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。 
+2017/11/29 11:30:08 [ERROR]2017/11/29 11:30:08没有终结点在侦听可以接受消息的 http://localhost:8862/BLLBaseService.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。 
+2017/11/29 11:33:23 [INFO]2017/11/29 11:33:23CraneProcess中CraneTaskFinished出错：Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 11:33:24 [ERROR]2017/11/29 11:33:242号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 11:33:38 [ERROR]2017/11/29 11:33:381号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 11:33:39 [INFO]2017/11/29 11:33:39CraneProcess中CraneTaskFinished出错：Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 11:33:53 [ERROR]2017/11/29 11:33:531号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 11:33:54 [ERROR]2017/11/29 11:33:542号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 11:34:09 [ERROR]2017/11/29 11:34:091号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 11:34:09 [ERROR]2017/11/29 11:34:092号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 11:34:10 [INFO]2017/11/29 11:34:10退出系统 
+2017/11/29 12:03:47 [ERROR]2017/11/29 12:03:47Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 12:04:17 [ERROR]2017/11/29 12:04:17Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 12:04:17 [INFO]2017/11/29 12:04:17CraneProcess中CraneTaskFinished出错：Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 12:04:17 [ERROR]2017/11/29 12:04:172号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 12:04:17 [ERROR]2017/11/29 12:04:171号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 12:04:17 [INFO]2017/11/29 12:04:17CraneProcess中CraneTaskFinished出错：Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 12:04:17 [ERROR]2017/11/29 12:04:172号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 12:04:17 [ERROR]2017/11/29 12:04:171号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 12:04:17 [ERROR]2017/11/29 12:04:172号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 12:04:17 [ERROR]2017/11/29 12:04:172号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 12:04:32 [ERROR]2017/11/29 12:04:321号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 12:04:32 [ERROR]2017/11/29 12:04:322号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 12:04:47 [ERROR]2017/11/29 12:04:471号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 12:04:47 [ERROR]2017/11/29 12:04:472号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 12:05:02 [ERROR]2017/11/29 12:05:021号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 12:05:02 [ERROR]2017/11/29 12:05:022号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 12:05:17 [ERROR]2017/11/29 12:05:171号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 12:05:17 [ERROR]2017/11/29 12:05:172号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 12:05:39 [ERROR]2017/11/29 12:05:39InvalidArgument=“-4”的值对于“SelectedIndex”无效。
+参数名: SelectedIndex 
+2017/11/29 12:05:41 [ERROR]2017/11/29 12:05:41InvalidArgument=“-4”的值对于“SelectedIndex”无效。
+参数名: SelectedIndex 
+2017/11/29 12:06:34 [ERROR]2017/11/29 12:06:342号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 12:06:37 [ERROR]2017/11/29 12:06:371号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 12:06:49 [INFO]2017/11/29 12:06:49CraneProcess中CraneTaskFinished出错：Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 12:06:52 [ERROR]2017/11/29 12:06:521号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 12:08:19 [ERROR]2017/11/29 12:08:192号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 12:08:32 [ERROR]2017/11/29 12:08:32InvalidArgument=“1”的值对于“SelectedIndex”无效。
+参数名: SelectedIndex 
+2017/11/29 12:09:20 [ERROR]2017/11/29 12:09:20InvalidArgument=“1”的值对于“SelectedIndex”无效。
+参数名: SelectedIndex 
+2017/11/29 12:10:26 [ERROR]2017/11/29 12:10:26InvalidArgument=“0”的值对于“SelectedIndex”无效。
+参数名: SelectedIndex 
+2017/11/29 12:10:49 [ERROR]2017/11/29 12:10:492号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 12:10:49 [INFO]2017/11/29 12:10:49CraneProcess中CraneTaskFinished出错：Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/11/29 12:11:22 [ERROR]2017/11/29 12:11:22InvalidArgument=“1”的值对于“SelectedIndex”无效。
+参数名: SelectedIndex 
+2017/11/29 12:11:31 [ERROR]2017/11/29 12:11:31InvalidArgument=“1”的值对于“SelectedIndex”无效。
+参数名: SelectedIndex 
+2017/11/29 12:12:04 [ERROR]2017/11/29 12:12:04InvalidArgument=“1”的值对于“SelectedIndex”无效。
+参数名: SelectedIndex 
+2017/11/29 12:13:32 [ERROR]2017/11/29 12:13:32InvalidArgument=“1”的值对于“SelectedIndex”无效。
+参数名: SelectedIndex 
+2017/11/29 12:15:21 [ERROR]2017/11/29 12:15:21InvalidArgument=“1”的值对于“SelectedIndex”无效。
+参数名: SelectedIndex 
+2017/11/29 12:15:25 [ERROR]2017/11/29 12:15:25InvalidArgument=“1”的值对于“SelectedIndex”无效。
+参数名: SelectedIndex 
+2017/11/29 12:16:39 [ERROR]2017/11/29 12:16:39InvalidArgument=“1”的值对于“SelectedIndex”无效。
+参数名: SelectedIndex 
+2017/11/29 12:18:19 [ERROR]2017/11/29 12:18:19InvalidArgument=“2”的值对于“SelectedIndex”无效。
+参数名: SelectedIndex 
+2017/11/29 12:18:35 [ERROR]2017/11/29 12:18:35InvalidArgument=“0”的值对于“SelectedIndex”无效。
+参数名: SelectedIndex 
+2017/11/29 12:20:53 [INFO]2017/11/29 12:20:53退出系统 
+2017/11/29 12:24:04 [ERROR]2017/11/29 12:24:04InvalidArgument=“1”的值对于“SelectedIndex”无效。
+参数名: SelectedIndex 
+2017/11/29 12:26:05 [INFO]2017/11/29 12:26:05退出系统 
+2017/11/29 12:37:12 [INFO]2017/11/29 12:37:12堆垛机联机 
+2017/11/29 12:43:16 [INFO]2017/11/29 12:43:16堆垛机联机 
+2017/11/29 12:44:42 [INFO]2017/11/29 12:44:42堆垛机联机 

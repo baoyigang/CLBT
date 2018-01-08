@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D6A97316-F526-4F3C-BF20-1B8EC67697A9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>App</RootNamespace>
+    <AssemblyName>App</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DataGridViewAutoFilter">
+      <HintPath>..\..\..\Lib\DataGridViewAutoFilter.dll</HintPath>
+    </Reference>
+    <Reference Include="IServices">
+      <HintPath>..\..\..\Lib\IServices.dll</HintPath>
+    </Reference>
+    <Reference Include="MCP">
+      <HintPath>..\..\..\..\LIB\MCP.dll</HintPath>
+    </Reference>
+    <Reference Include="MCP.Service.Siemens">
+      <HintPath>..\..\..\LIB\MCP.Service.Siemens.dll</HintPath>
+    </Reference>
+    <Reference Include="MCP.Service.TCP">
+      <HintPath>..\..\..\LIB\MCP.Service.TCP.dll</HintPath>
+    </Reference>
+    <Reference Include="OPC">
+      <HintPath>..\..\..\LIB\OPC.dll</HintPath>
+    </Reference>
+    <Reference Include="OpcRcw.Comn, Version=1.10.2.0, Culture=neutral, PublicKeyToken=9a40e993cbface53, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\LIB\OpcRcw.Comn.dll</HintPath>
+    </Reference>
+    <Reference Include="OpcRcw.Da, Version=3.0.3.0, Culture=neutral, PublicKeyToken=9a40e993cbface53, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\LIB\OpcRcw.Da.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TCP">
+      <HintPath>..\..\..\Lib\TCP.dll</HintPath>
+    </Reference>
+    <Reference Include="Util, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Util.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\BLLBase.cs" />
+    <Compile Include="BLL\Server.cs" />
+    <Compile Include="Crane.cs" />
+    <Compile Include="Dispatching\Process\CraneProcess.cs" />
+    <Compile Include="Dispatching\Process\ErpProcess.cs" />
+    <Compile Include="Dispatching\TCPMessageParse.cs" />
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Task.cs" />
+    <Compile Include="View\BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BaseForm.Designer.cs">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\CheckScan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\CheckScan.designer.cs">
+      <DependentUpon>CheckScan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Task\frmBillUpERP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Task\frmBillUpERP.Designer.cs">
+      <DependentUpon>frmBillUpERP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\TaskCarNo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\TaskCarNo.Designer.cs">
+      <DependentUpon>TaskCarNo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Dispatcher\frmCellDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Dispatcher\frmCellDialog.designer.cs">
+      <DependentUpon>frmCellDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Dispatcher\frmCellOpDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Dispatcher\frmCellOpDialog.designer.cs">
+      <DependentUpon>frmCellOpDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Dispatcher\frmCellQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Dispatcher\frmCellQuery.Designer.cs">
+      <DependentUpon>frmCellQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Filter.cs" />
+    <Compile Include="View\frmMonitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmMonitor.Designer.cs">
+      <DependentUpon>frmMonitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmReassign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmReassign.designer.cs">
+      <DependentUpon>frmReassign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmReassignEmptyCell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmReassignEmptyCell.designer.cs">
+      <DependentUpon>frmReassignEmptyCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmReassignOption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmReassignOption.Designer.cs">
+      <DependentUpon>frmReassignOption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmTaskOption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmTaskOption.Designer.cs">
+      <DependentUpon>frmTaskOption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Param\Parameter.cs" />
+    <Compile Include="View\Param\ParameterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Param\ParameterForm.designer.cs">
+      <DependentUpon>ParameterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\SelectDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\SelectDialog.designer.cs">
+      <DependentUpon>SelectDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Task\frmInventor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Task\frmInventor.Designer.cs">
+      <DependentUpon>frmInventor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Task\frmCraneTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Task\frmCraneTask.Designer.cs">
+      <DependentUpon>frmCraneTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Task\frmMoveStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Task\frmMoveStock.Designer.cs">
+      <DependentUpon>frmMoveStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Task\frmPalletOutTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Task\frmPalletOutTask.Designer.cs">
+      <DependentUpon>frmPalletOutTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Task\frmOutStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Task\frmOutStock.Designer.cs">
+      <DependentUpon>frmOutStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Task\frmInStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Task\frmInStock.Designer.cs">
+      <DependentUpon>frmInStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Task\frmInStockTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Task\frmInStockTask.Designer.cs">
+      <DependentUpon>frmInStockTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Task\frmPalletInTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Task\frmPalletInTask.Designer.cs">
+      <DependentUpon>frmPalletInTask.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BaseForm.resx">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\CheckScan.resx">
+      <DependentUpon>CheckScan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Task\frmBillUpERP.resx">
+      <DependentUpon>frmBillUpERP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\TaskCarNo.resx">
+      <DependentUpon>TaskCarNo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Dispatcher\frmCellDialog.resx">
+      <DependentUpon>frmCellDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Dispatcher\frmCellOpDialog.resx">
+      <DependentUpon>frmCellOpDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Dispatcher\frmCellQuery.resx">
+      <DependentUpon>frmCellQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmMonitor.resx">
+      <DependentUpon>frmMonitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmReassign.resx">
+      <DependentUpon>frmReassign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmReassignEmptyCell.resx">
+      <DependentUpon>frmReassignEmptyCell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmReassignOption.resx">
+      <DependentUpon>frmReassignOption.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmTaskOption.resx">
+      <DependentUpon>frmTaskOption.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Param\ParameterForm.resx">
+      <DependentUpon>ParameterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\SelectDialog.resx">
+      <DependentUpon>SelectDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Task\frmInventor.resx">
+      <DependentUpon>frmInventor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Task\frmCraneTask.resx">
+      <DependentUpon>frmCraneTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Task\frmMoveStock.resx">
+      <DependentUpon>frmMoveStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Task\frmPalletOutTask.resx">
+      <DependentUpon>frmPalletOutTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Task\frmOutStock.resx">
+      <DependentUpon>frmOutStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Task\frmInStock.resx">
+      <DependentUpon>frmInStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Task\frmInStockTask.resx">
+      <DependentUpon>frmInStockTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Task\frmPalletInTask.resx">
+      <DependentUpon>frmPalletInTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Help.chm" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App.ico" />
+    <Content Include="Config.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Crane.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\Shelf.png" />
+    <None Include="Resources\Crane11.png" />
+    <None Include="Resources\Crane2.png" />
+    <None Include="Resources\Crane12.png" />
+    <None Include="Resources\zoom.png" />
+    <None Include="Resources\report.png" />
+    <None Include="Resources\close.png" />
+    <None Include="Resources\calculator.png" />
+    <None Include="Resources\1234.png" />
+    <None Include="Resources\123.png" />
+    <None Include="Resources\12.png" />
+    <None Include="Resources\111.png" />
+    <None Include="Resources\1111.png" />
+    <None Include="Resources\551fb5a24da28a97739ca06c843ac6ff.png" />
+    <None Include="Resources\Barcode_32.png" />
+    <Content Include="CranePLC1.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="CranePLC2.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ERP.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Monitor.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\54库古里立库.png" />
+    <None Include="Resources\Car.png" />
+    <None Include="Resources\Car1.png" />
+    <None Include="Resources\87BTCL.png" />
+    <Content Include="Resources\down.png" />
+    <None Include="Resources\monitor.png" />
+    <Content Include="Resources\next.png" />
+    <None Include="Resources\process.png" />
+    <None Include="Resources\process_accept.png" />
+    <None Include="Resources\process_remove.png" />
+    <Content Include="Resources\remove.png" />
+    <Content Include="Resources\up.png" />
+    <Content Include="ViewConfig.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

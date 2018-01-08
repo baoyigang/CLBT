@@ -1,0 +1,4 @@
+2017/11/23 9:47:53 [ERROR]2017/11/23 9:47:53CraneProcess堆垛机初始化出错，原因：无法打开登录所请求的数据库 "CLBT_StockDB"。登录失败。
+用户 'sa' 登录失败。 
+2017/11/23 9:47:54 [ERROR]2017/11/23 9:47:54初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/11/23 9:47:56 [INFO]2017/11/23 9:47:56退出系统 

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TABLE name="CMD_Cell" ChineseName="货位信息" PrimaryKey="CellCode" OrderBy="CellCode" ViewName="VMoveCMD_Cell">
+  <FIELD ShowInFieldQuery="1" ShowQueryIndex="1">
+    <FieldName>ShelfName</FieldName>
+    <FieldTitle>货架</FieldTitle>
+    <DataType>string</DataType>
+  </FIELD>
+  <FIELD ShowInFieldQuery="1" ShowQueryIndex="2">
+    <FieldName>CellCode</FieldName>
+    <FieldTitle>货位</FieldTitle>
+    <DataType>string</DataType>
+  </FIELD>
+  <FIELD ShowInFieldQuery="1" ShowQueryIndex="3">
+    <FieldName>CategoryName</FieldName>
+    <FieldTitle>产品类别</FieldTitle>
+    <DataType>string</DataType>
+  </FIELD>
+  <FIELD ShowInFieldQuery="1" ShowQueryIndex="4">
+    <FieldName>ProductCode</FieldName>
+    <FieldTitle>产品编号</FieldTitle>
+    <DataType>string</DataType>
+  </FIELD>
+  <FIELD ShowInFieldQuery="1" ShowQueryIndex="5">
+    <FieldName>ProductName</FieldName>
+    <FieldTitle>品名</FieldTitle>
+    <DataType>string</DataType>
+  </FIELD>
+  <FIELD ShowInFieldQuery="1" ShowQueryIndex="6">
+    <FieldName>Unit</FieldName>
+    <FieldTitle>单位</FieldTitle>
+    <DataType>string</DataType>
+  </FIELD>
+  
+  <FIELD ShowInFieldQuery="0" ShowQueryIndex="4">
+    <FieldName>BillNo</FieldName>
+    <FieldTitle>单号</FieldTitle>
+    <DataType>string</DataType>
+  </FIELD>
+  <FIELD ShowInFieldQuery="0" ShowQueryIndex="4">
+    <FieldName>InDate</FieldName>
+    <FieldTitle>入库时间</FieldTitle>
+    <DataType>string</DataType>
+  </FIELD>
+  
+  <FIELD ShowInFieldQuery="0" ShowQueryIndex="6">
+    <FieldName>Quantity</FieldName>
+    <FieldTitle>数量</FieldTitle>
+    <DataType>string</DataType>
+  </FIELD>
+</TABLE>

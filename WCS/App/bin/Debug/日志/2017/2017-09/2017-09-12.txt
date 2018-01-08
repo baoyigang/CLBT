@@ -1,0 +1,3 @@
+2017/9/12 9:35:57 [ERROR]2017/9/12 9:35:57初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/9/12 9:36:16 [ERROR]2017/9/12 9:36:16Can not find the Service with the name of 'CranePLC3'  in the Context. 
+2017/9/12 9:36:29 [INFO]2017/9/12 9:36:29退出系统 

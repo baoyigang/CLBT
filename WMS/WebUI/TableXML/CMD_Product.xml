@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TABLE name="CMD_Product" ChineseName="产品信息" PrimaryKey="ProductCode" OrderBy="CategoryName,ProductCode" ViewName="VCMD_PRODUCT">
+  <FIELD ShowInFieldQuery="1" ShowQueryIndex="1">
+    <FieldName>Spec</FieldName>
+    <FieldTitle>规格</FieldTitle>
+    <DataType>string</DataType>
+  </FIELD>
+  <FIELD ShowInFieldQuery="1" ShowQueryIndex="2">
+    <FieldName>CategoryName</FieldName>
+    <FieldTitle>产品类型</FieldTitle>
+    <DataType>string</DataType>
+  </FIELD>
+  <FIELD ShowInFieldQuery="1" ShowQueryIndex="3">
+    <FieldName>ProductCode</FieldName>
+    <FieldTitle>产品编号</FieldTitle>
+    <DataType>double</DataType>
+  </FIELD>
+  <FIELD ShowInFieldQuery="1" ShowQueryIndex="4">
+    <FieldName>Propertity</FieldName>
+    <FieldTitle>牌号状态</FieldTitle>
+    <DataType>string</DataType>
+  </FIELD>
+  <FIELD ShowInFieldQuery="1" ShowQueryIndex="5">
+    <FieldName>ProductName</FieldName>
+    <FieldTitle>品名</FieldTitle>
+    <DataType>string</DataType>
+  </FIELD>
+  <FIELD ShowInFieldQuery="1" ShowQueryIndex="6">
+    <FieldName>ProductEName</FieldName>
+    <FieldTitle>英文品名</FieldTitle>
+    <DataType>string</DataType>
+  </FIELD>
+  <FIELD ShowInFieldQuery="1" ShowQueryIndex="7">
+    <FieldName>ProductNo</FieldName>
+    <FieldTitle>ERP编码</FieldTitle>
+    <DataType>string</DataType>
+  </FIELD>
+  
+  <FIELD ShowInFieldQuery="1" ShowQueryIndex="8">
+    <FieldName>ModelNo</FieldName>
+    <FieldTitle>产品型号</FieldTitle>
+    <DataType>string</DataType>
+  </FIELD>
+  <FIELD ShowInFieldQuery="1" ShowQueryIndex="9">
+    <FieldName>StandardNo</FieldName>
+    <FieldTitle>标准号</FieldTitle>
+    <DataType>string</DataType>
+  </FIELD>
+  <FIELD ShowInFieldQuery="1" ShowQueryIndex="10">
+    <FieldName>PartNo</FieldName>
+    <FieldTitle>部品号</FieldTitle>
+    <DataType>string</DataType>
+  </FIELD>
+  <FIELD ShowInFieldQuery="1" ShowQueryIndex="11">
+    <FieldName>Unit</FieldName>
+    <FieldTitle>单位</FieldTitle>
+    <DataType>string</DataType>
+  </FIELD>
+  <FIELD ShowInFieldQuery="1" ShowQueryIndex="12">
+    <FieldName>Barcode</FieldName>
+    <FieldTitle>条码号</FieldTitle>
+    <DataType>string</DataType>
+  </FIELD>
+  <FIELD ShowInFieldQuery="1" ShowQueryIndex="13">
+    <FieldName>Weight</FieldName>
+    <FieldTitle>重量</FieldTitle>
+    <DataType>string</DataType>
+  </FIELD>
+</TABLE>

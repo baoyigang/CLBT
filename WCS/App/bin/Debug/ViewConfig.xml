@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <Application>
+  <Caption MinBox="false" MaxBox="false"/>
+  <Title Text="厦门晶璟自动化有限公司" Visible="true"/>
+  <MenuBar Width="180"/>
+  <MenuItem Height="22"/>
+  <Menus Name="穿梭车与移栽车">
+	  <Menu Name="穿梭车与移栽车任务" Type="Dispatching.OperateView.frmCarSation,Dispatching.dll"/>
+    <Menu Name="穿梭车错误处理" Type="Dispatching.OperateView.frmHandleCarError,Dispatching.dll"/>
+  </Menus>
+</Application>

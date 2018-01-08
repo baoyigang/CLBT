@@ -1,0 +1,74 @@
+2017/2/20 11:58:57 [ERROR]2017/2/20 11:58:57初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/20 11:59:00 [INFO]2017/2/20 11:59:00退出系统 
+2017/2/20 12:12:15 [ERROR]2017/2/20 12:12:15CraneProcess堆垛机初始化出错，原因：There is no row at position 3. 
+2017/2/20 12:12:15 [ERROR]2017/2/20 12:12:15初始化处理失败请检查配置，原因：Could not find file 'D:\bba\CL_WMCS\WCSCL2\App\bin\Debug\CranePLC2.xml'. 
+2017/2/20 12:12:26 [INFO]2017/2/20 12:12:26退出系统 
+2017/2/20 12:13:38 [ERROR]2017/2/20 12:13:38CraneProcess堆垛机初始化出错，原因：There is no row at position 3. 
+2017/2/20 12:13:38 [ERROR]2017/2/20 12:13:38初始化处理失败请检查配置，原因：Could not find file 'D:\bba\CL_WMCS\WCSCL2\App\bin\Debug\CranePLC2.xml'. 
+2017/2/20 12:13:50 [INFO]2017/2/20 12:13:50退出系统 
+2017/2/20 12:23:06 [ERROR]2017/2/20 12:23:06CraneProcess堆垛机初始化出错，原因：命令WCS.SelectCraneError不存在 
+2017/2/20 12:23:06 [ERROR]2017/2/20 12:23:06初始化处理失败请检查配置，原因：Could not find file 'D:\bba\CL_WMCS\WCSCL2\App\bin\Debug\CranePLC2.xml'. 
+2017/2/20 12:23:18 [INFO]2017/2/20 12:23:18退出系统 
+2017/2/20 12:23:29 [ERROR]2017/2/20 12:23:29CraneProcess堆垛机初始化出错，原因：命令WCS.SelectCraneError不存在 
+2017/2/20 12:23:29 [ERROR]2017/2/20 12:23:29初始化处理失败请检查配置，原因：Could not find file 'D:\bba\CL_WMCS\WCSCL2\App\bin\Debug\CranePLC2.xml'. 
+2017/2/20 12:23:37 [INFO]2017/2/20 12:23:37退出系统 
+2017/2/20 12:29:37 [ERROR]2017/2/20 12:29:37CraneProcess堆垛机初始化出错，原因：命令WCS.SelectCraneError不存在 
+2017/2/20 12:29:39 [ERROR]2017/2/20 12:29:39初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/20 12:29:48 [INFO]2017/2/20 12:29:48退出系统 
+2017/2/20 12:30:39 [ERROR]2017/2/20 12:30:39CraneProcess堆垛机初始化出错，原因：There is no row at position 2. 
+2017/2/20 12:30:40 [ERROR]2017/2/20 12:30:40初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/20 12:33:44 [ERROR]2017/2/20 12:33:44CraneProcess堆垛机初始化出错，原因：There is no row at position 2. 
+2017/2/20 12:33:45 [ERROR]2017/2/20 12:33:45初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/20 12:33:51 [INFO]2017/2/20 12:33:51退出系统 
+2017/2/20 12:34:12 [ERROR]2017/2/20 12:34:12CraneProcess堆垛机初始化出错，原因：There is no row at position 2. 
+2017/2/20 12:34:15 [ERROR]2017/2/20 12:34:15初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/20 12:34:23 [INFO]2017/2/20 12:34:23退出系统 
+2017/2/20 12:36:44 [ERROR]2017/2/20 12:36:44CraneProcess堆垛机初始化出错，原因：There is no row at position 2. 
+2017/2/20 12:36:45 [ERROR]2017/2/20 12:36:45初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/20 12:37:39 [INFO]2017/2/20 12:37:39退出系统 
+2017/2/20 12:39:47 [ERROR]2017/2/20 12:39:47初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/20 12:39:50 [INFO]2017/2/20 12:39:50退出系统 
+2017/2/20 12:40:04 [ERROR]2017/2/20 12:40:04初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/20 12:40:07 [INFO]2017/2/20 12:40:07退出系统 
+2017/2/20 12:49:09 [ERROR]2017/2/20 12:49:09初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/20 12:49:14 [INFO]2017/2/20 12:49:14退出系统 
+2017/2/20 12:56:49 [ERROR]2017/2/20 12:56:49初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/20 12:58:10 [INFO]2017/2/20 12:58:10退出系统 
+2017/2/20 12:58:48 [ERROR]2017/2/20 12:58:48初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/20 13:02:11 [ERROR]2017/2/20 13:02:11初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/20 13:02:49 [ERROR]2017/2/20 13:02:49初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/20 13:03:42 [INFO]2017/2/20 13:03:42退出系统 
+2017/2/20 13:04:38 [ERROR]2017/2/20 13:04:38初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/20 14:41:30 [ERROR]2017/2/20 14:41:30初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/20 14:41:43 [INFO]2017/2/20 14:41:43退出系统 
+2017/2/20 14:51:36 [ERROR]2017/2/20 14:51:36初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/20 14:51:47 [INFO]2017/2/20 14:51:47退出系统 
+2017/2/20 15:24:08 [ERROR]2017/2/20 15:24:08初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/20 15:25:56 [ERROR]2017/2/20 15:25:56初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/20 15:27:17 [ERROR]2017/2/20 15:27:17初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/20 15:29:05 [ERROR]2017/2/20 15:29:05初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/20 15:30:24 [ERROR]2017/2/20 15:30:24初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/20 15:31:44 [ERROR]2017/2/20 15:31:44初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/20 15:31:53 [INFO]2017/2/20 15:31:53退出系统 
+2017/2/20 15:32:09 [ERROR]2017/2/20 15:32:09初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/20 15:32:19 [INFO]2017/2/20 15:32:19退出系统 
+2017/2/20 16:34:38 [ERROR]2017/2/20 16:34:38初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/20 16:43:00 [ERROR]2017/2/20 16:43:00初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/20 16:43:40 [ERROR]2017/2/20 16:43:40初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/20 16:44:12 [ERROR]2017/2/20 16:44:12初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/20 16:44:19 [INFO]2017/2/20 16:44:19退出系统 
+2017/2/20 16:50:09 [ERROR]2017/2/20 16:50:09初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/20 16:50:11 [ERROR]2017/2/20 16:50:11Object reference not set to an instance of an object. 
+2017/2/20 16:50:14 [ERROR]2017/2/20 16:50:14Object reference not set to an instance of an object. 
+2017/2/20 16:50:19 [ERROR]2017/2/20 16:50:19Object reference not set to an instance of an object. 
+2017/2/20 16:50:21 [INFO]2017/2/20 16:50:21退出系统 
+2017/2/20 16:50:53 [ERROR]2017/2/20 16:50:52初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/20 16:50:55 [ERROR]2017/2/20 16:50:55Object reference not set to an instance of an object. 
+2017/2/20 16:50:56 [ERROR]2017/2/20 16:50:56Object reference not set to an instance of an object. 
+2017/2/20 16:51:00 [ERROR]2017/2/20 16:51:00Object reference not set to an instance of an object. 
+2017/2/20 16:51:05 [ERROR]2017/2/20 16:51:05Object reference not set to an instance of an object. 
+2017/2/20 16:51:07 [INFO]2017/2/20 16:51:07退出系统 
+2017/2/20 16:51:45 [ERROR]2017/2/20 16:51:45初始化处理失败请检查配置，原因：To add an item to a group is not successful ,Reason：The item definition does not exist in the server address space. 
+2017/2/20 16:51:58 [ERROR]2017/2/20 16:51:58Object reference not set to an instance of an object. 
+2017/2/20 16:52:48 [ERROR]2017/2/20 16:52:48Object reference not set to an instance of an object. 
+2017/2/20 16:53:01 [INFO]2017/2/20 16:53:01退出系统 

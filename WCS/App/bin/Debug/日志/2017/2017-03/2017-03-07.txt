@@ -1,0 +1,42 @@
+2017/3/7 9:50:04 [INFO]2017/3/7 9:50:04退出系统 
+2017/3/7 9:51:21 [INFO]2017/3/7 9:51:21CraneProcess中CraneTaskFinished出错：Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 9:51:36 [ERROR]2017/3/7 9:51:362号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 9:51:51 [ERROR]2017/3/7 9:51:512号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 9:52:07 [ERROR]2017/3/7 9:52:072号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 9:52:22 [ERROR]2017/3/7 9:52:222号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 9:52:37 [ERROR]2017/3/7 9:52:372号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 9:52:52 [ERROR]2017/3/7 9:52:522号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 9:53:02 [INFO]2017/3/7 9:53:02退出系统 
+2017/3/7 9:55:24 [INFO]2017/3/7 9:55:24退出系统 
+2017/3/7 9:56:02 [INFO]2017/3/7 9:56:02CraneProcess中CraneTaskFinished出错：Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 9:56:17 [ERROR]2017/3/7 9:56:172号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 9:56:32 [ERROR]2017/3/7 9:56:322号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 9:56:47 [ERROR]2017/3/7 9:56:472号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 9:57:02 [ERROR]2017/3/7 9:57:022号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 9:57:17 [ERROR]2017/3/7 9:57:172号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 9:57:32 [ERROR]2017/3/7 9:57:322号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 9:57:47 [ERROR]2017/3/7 9:57:472号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 9:58:02 [ERROR]2017/3/7 9:58:022号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 9:58:17 [ERROR]2017/3/7 9:58:172号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 9:58:32 [ERROR]2017/3/7 9:58:322号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 9:58:47 [ERROR]2017/3/7 9:58:472号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 9:59:02 [ERROR]2017/3/7 9:59:022号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 9:59:18 [ERROR]2017/3/7 9:59:182号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 9:59:33 [ERROR]2017/3/7 9:59:332号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 9:59:48 [ERROR]2017/3/7 9:59:482号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 10:00:03 [ERROR]2017/3/7 10:00:032号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 10:00:33 [INFO]2017/3/7 10:00:33CraneProcess中CraneTaskFinished出错：Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 10:00:48 [ERROR]2017/3/7 10:00:482号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 10:01:03 [ERROR]2017/3/7 10:01:032号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 10:01:18 [ERROR]2017/3/7 10:01:182号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 10:02:18 [INFO]2017/3/7 10:02:18CraneProcess中CraneTaskFinished出错：Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 10:02:33 [ERROR]2017/3/7 10:02:332号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 10:02:48 [ERROR]2017/3/7 10:02:482号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 10:03:00 [INFO]2017/3/7 10:03:00退出系统 
+2017/3/7 10:03:34 [INFO]2017/3/7 10:03:34CraneProcess中CraneTaskFinished出错：Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 10:03:47 [INFO]2017/3/7 10:03:47退出系统 
+2017/3/7 10:08:50 [INFO]2017/3/7 10:08:50CraneProcess中CraneTaskFinished出错：Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 10:09:05 [ERROR]2017/3/7 10:09:052号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 10:09:20 [ERROR]2017/3/7 10:09:202号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 10:09:35 [ERROR]2017/3/7 10:09:352号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/7 10:09:46 [INFO]2017/3/7 10:09:46退出系统 

@@ -1,0 +1,17 @@
+D:\bba\CL_WMCS\SQLDAL\bin\Debug\SQLDAL.dll
+D:\bba\CL_WMCS\SQLDAL\bin\Debug\SQLDAL.pdb
+D:\bba\CL_WMCS\SQLDAL\bin\Debug\IDAL.dll
+D:\bba\CL_WMCS\SQLDAL\bin\Debug\Util.dll
+D:\bba\CL_WMCS\SQLDAL\obj\Debug\SQLDAL.Properties.Resources.resources
+D:\bba\CL_WMCS\SQLDAL\obj\Debug\SQLDAL.csproj.GenerateResource.Cache
+D:\bba\CL_WMCS\SQLDAL\obj\Debug\SQLDAL.dll
+D:\bba\CL_WMCS\SQLDAL\obj\Debug\SQLDAL.pdb
+D:\bba\CL_WMCS\SQLDAL\obj\Debug\SQLDAL.csprojResolveAssemblyReference.cache
+D:\bba\CLBT\SQLDAL\bin\Debug\SQLDAL.dll
+D:\bba\CLBT\SQLDAL\bin\Debug\SQLDAL.pdb
+D:\bba\CLBT\SQLDAL\bin\Debug\IDAL.dll
+D:\bba\CLBT\SQLDAL\bin\Debug\Util.dll
+D:\bba\CLBT\SQLDAL\obj\Debug\SQLDAL.Properties.Resources.resources
+D:\bba\CLBT\SQLDAL\obj\Debug\SQLDAL.csproj.GenerateResource.Cache
+D:\bba\CLBT\SQLDAL\obj\Debug\SQLDAL.dll
+D:\bba\CLBT\SQLDAL\obj\Debug\SQLDAL.pdb

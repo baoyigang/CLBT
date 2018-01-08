@@ -1,0 +1,35 @@
+﻿<?xml version='1.0' ?>
+<Config>
+  <OPCServer ConnectionString="OPC.SimaticNET">
+    <!--<OPCGroup GroupName="PLCGroup" GroupString="S7:[@LOCALSERVER]" UpdateRate="350">-->
+    <OPCGroup GroupName="PLCGroup" GroupString="S7:[PLC03]" UpdateRate="350">
+      <!--握手信号-->
+      <OPCItem ItemName="ReadHandShake" ClientHandler="1" OPCItemName="DB541,X0.0,1"  ItemType="READ" IsActive="false"/>
+      <OPCItem ItemName="CraneTaskFinished" ClientHandler="2" OPCItemName="DB541,X1.2,1" ItemType="READ" IsActive="true"/>
+
+
+      <!--堆垛机运行模式-->
+      <OPCItem ItemName="CraneMode" ClientHandler="6" OPCItemName="DB541,X0.7,1"  ItemType="READ" IsActive="false"/>
+      <!--堆垛机报警代码、位置-->
+      <OPCItem ItemName="CraneAlarmCode" ClientHandler="7" OPCItemName="DB541,INT6,5"  ItemType="READ" IsActive="false"/>
+      <!--堆垛机负载-->
+      <OPCItem ItemName="CraneLoad" ClientHandler="8" OPCItemName="DB541,X1.3,1"  ItemType="READ" IsActive="false"/>
+      <!--堆垛机货叉-->
+      <OPCItem ItemName="CraneFork" ClientHandler="9" OPCItemName="DB541,X1.4,1"  ItemType="READ" IsActive="false"/>
+      <!--任务号-->
+      <OPCItem ItemName="CraneTaskNo" ClientHandler="11" OPCItemName="DB541,DINT16,1"  ItemType="READ" IsActive="false"/>
+
+      <!--握手信号-->
+      <OPCItem ItemName="HandShake" ClientHandler="16" OPCItemName="DB540,INT0,1"  ItemType="WRITE"/>
+
+      <!--任务类型、起始地址、目标地址-->
+      <OPCItem ItemName="TaskAddress" ClientHandler="17" OPCItemName="DB540,INT2,9"  ItemType="WRITE"/>
+      <!--任务号-->
+      <OPCItem ItemName="TaskNo" ClientHandler="18" OPCItemName="DB540,DINT20,1"  ItemType="WRITE"/>
+      <!--任务标识-->
+      <OPCItem ItemName="WriteFinished" ClientHandler="19" OPCItemName="DB540,INT24,1"  ItemType="WRITE"/>
+      <!--解警,复位--><!--
+      <OPCItem ItemName="Reset" ClientHandler="20" OPCItemName="DB540,INT20,1"  ItemType="WRITE"/>-->
+    </OPCGroup>
+  </OPCServer>
+</Config>

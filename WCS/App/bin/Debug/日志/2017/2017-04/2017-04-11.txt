@@ -1,0 +1,76 @@
+2017/4/11 8:56:09 [ERROR]2017/4/11 8:56:09初始化处理失败请检查配置，原因：Failed to write OPC,Reason:Timeout, e.g. due to a broken connection. 
+2017/4/11 8:56:12 [ERROR]2017/4/11 8:56:12此熔次卷号 ccdef 不存在，或已经扫描入库！ 
+2017/4/11 8:56:17 [INFO]2017/4/11 8:56:17CraneProcess中CraneTaskFinished出错：Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/4/11 8:56:25 [ERROR]2017/4/11 8:56:25此熔次卷号 ccdef 不存在，或已经扫描入库！ 
+2017/4/11 9:00:10 [ERROR]2017/4/11 9:00:10初始化处理失败请检查配置，原因：Failed to write OPC,Reason:Timeout, e.g. due to a broken connection. 
+2017/4/11 9:00:10 [INFO]2017/4/11 9:00:10CraneProcess中CraneTaskFinished出错：Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/4/11 9:00:25 [ERROR]2017/4/11 9:00:25初始化处理失败请检查配置，原因：Failed to write OPC,Reason:Timeout, e.g. due to a broken connection. 
+2017/4/11 9:43:36 [ERROR]2017/4/11 9:43:36初始化处理失败请检查配置，原因：Failed to write OPC,Reason:Timeout, e.g. due to a broken connection. 
+2017/4/11 9:43:50 [INFO]2017/4/11 9:43:50CraneProcess中CraneTaskFinished出错：Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/4/11 9:44:03 [ERROR]2017/4/11 9:44:03',' 附近有语法错误。 
+2017/4/11 9:47:22 [ERROR]2017/4/11 9:47:22初始化处理失败请检查配置，原因：Failed to write OPC,Reason:Timeout, e.g. due to a broken connection. 
+2017/4/11 9:47:22 [INFO]2017/4/11 9:47:22CraneProcess中CraneTaskFinished出错：Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/4/11 9:47:52 [ERROR]2017/4/11 9:47:52初始化处理失败请检查配置，原因：Failed to write OPC,Reason:Timeout, e.g. due to a broken connection. 
+2017/4/11 9:47:52 [INFO]2017/4/11 9:47:52CraneProcess中CraneTaskFinished出错：Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/4/11 9:48:11 [ERROR]2017/4/11 9:48:11',' 附近有语法错误。 
+2017/4/11 9:48:57 [INFO]2017/4/11 9:48:57任务号：1704110002手动更新为：0 
+2017/4/11 9:49:00 [INFO]2017/4/11 9:49:00任务号：1704110003手动更新为：0 
+2017/4/11 9:49:08 [ERROR]2017/4/11 9:49:08',' 附近有语法错误。 
+2017/4/11 9:49:18 [INFO]2017/4/11 9:49:18任务号：1704110002手动更新为：0 
+2017/4/11 9:49:20 [INFO]2017/4/11 9:49:20任务号：1704110003手动更新为：0 
+2017/4/11 9:56:34 [ERROR]2017/4/11 9:56:34',' 附近有语法错误。 
+2017/4/11 9:56:43 [INFO]2017/4/11 9:56:43任务号：1704110002手动更新为：0 
+2017/4/11 9:56:45 [INFO]2017/4/11 9:56:45任务号：1704110003手动更新为：0 
+2017/4/11 10:13:27 [ERROR]2017/4/11 10:13:27初始化处理失败请检查配置，原因：Failed to write OPC,Reason:Timeout, e.g. due to a broken connection. 
+2017/4/11 10:13:27 [INFO]2017/4/11 10:13:27CraneProcess中CraneTaskFinished出错：Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/4/11 10:13:45 [ERROR]2017/4/11 10:13:45'11' 附近有语法错误。
+字符串 '
+      ORDER BY WCS_TASK.TaskLevel DESC, WCS_TASK.RequestDate,WCS_TASK.StartDate,AisleNo
+    ' 后的引号不完整。 
+2017/4/11 10:14:57 [ERROR]2017/4/11 10:14:57此熔次卷号 123 不存在，或已经扫描入库！ 
+2017/4/11 10:14:59 [ERROR]2017/4/11 10:14:59此熔次卷号 124 不存在，或已经扫描入库！ 
+2017/4/11 10:15:14 [INFO]2017/4/11 10:15:14任务号：1704110002手动更新为：0 
+2017/4/11 10:15:16 [INFO]2017/4/11 10:15:16任务号：1704110003手动更新为：0 
+2017/4/11 10:16:01 [ERROR]2017/4/11 10:16:01'11' 附近有语法错误。
+字符串 '
+      ORDER BY WCS_TASK.TaskLevel DESC, WCS_TASK.RequestDate,WCS_TASK.StartDate,AisleNo
+    ' 后的引号不完整。 
+2017/4/11 10:16:08 [INFO]2017/4/11 10:16:08任务号：1704110002手动更新为：0 
+2017/4/11 10:16:10 [INFO]2017/4/11 10:16:10任务号：1704110003手动更新为：0 
+2017/4/11 10:17:24 [ERROR]2017/4/11 10:17:24'11' 附近有语法错误。
+字符串 '
+      ORDER BY WCS_TASK.TaskLevel DESC, WCS_TASK.RequestDate,WCS_TASK.StartDate,AisleNo
+    ' 后的引号不完整。 
+2017/4/11 10:17:30 [INFO]2017/4/11 10:17:30任务号：1704110002手动更新为：0 
+2017/4/11 10:17:32 [INFO]2017/4/11 10:17:32任务号：1704110003手动更新为：0 
+2017/4/11 10:17:33 [INFO]2017/4/11 10:17:33退出系统 
+2017/4/11 10:17:58 [ERROR]2017/4/11 10:17:58初始化处理失败请检查配置，原因：Failed to write OPC,Reason:Timeout, e.g. due to a broken connection. 
+2017/4/11 10:17:58 [INFO]2017/4/11 10:17:58CraneProcess中CraneTaskFinished出错：Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/4/11 10:18:29 [ERROR]2017/4/11 10:18:29Failed to write OPC,Reason:Timeout, e.g. due to a broken connection. 
+2017/4/11 10:18:47 [INFO]2017/4/11 10:18:47任务号：1704110002手动更新为：0 
+2017/4/11 10:18:49 [INFO]2017/4/11 10:18:49任务号：1704110003手动更新为：0 
+2017/4/11 10:18:51 [INFO]2017/4/11 10:18:51退出系统 
+2017/4/11 10:31:31 [ERROR]2017/4/11 10:31:31初始化处理失败请检查配置，原因：Failed to write OPC,Reason:Timeout, e.g. due to a broken connection. 
+2017/4/11 10:31:34 [INFO]2017/4/11 10:31:34不同物料，不能同时存放同一个货位！ 
+2017/4/11 10:31:38 [INFO]2017/4/11 10:31:38不同物料，不能同时存放同一个货位！ 
+2017/4/11 10:31:43 [INFO]2017/4/11 10:31:43CraneProcess中CraneTaskFinished出错：Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/4/11 10:31:54 [INFO]2017/4/11 10:31:54不同物料，不能同时存放同一个货位！ 
+2017/4/11 10:33:47 [ERROR]2017/4/11 10:33:47Failed to write OPC,Reason:Timeout, e.g. due to a broken connection. 
+2017/4/11 10:34:59 [ERROR]2017/4/11 10:34:59Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/4/11 10:35:17 [ERROR]2017/4/11 10:35:17Failed to write OPC,Reason:Timeout, e.g. due to a broken connection. 
+2017/4/11 10:36:09 [INFO]2017/4/11 10:36:09任务号：1704110002手动更新为：1 
+2017/4/11 10:36:12 [INFO]2017/4/11 10:36:12任务号：1704110002手动更新为：12 
+2017/4/11 10:36:19 [INFO]2017/4/11 10:36:19任务号：1704110003手动更新为：12 
+2017/4/11 10:39:17 [INFO]2017/4/11 10:39:17任务号：1704110002手动更新为：1 
+2017/4/11 10:39:20 [INFO]2017/4/11 10:39:20任务号：1704110003手动更新为：1 
+2017/4/11 13:00:37 [ERROR]2017/4/11 13:00:37初始化处理失败请检查配置，原因：Failed to write OPC,Reason:Timeout, e.g. due to a broken connection. 
+2017/4/11 13:00:40 [INFO]2017/4/11 13:00:40退出系统 
+2017/4/11 13:01:40 [INFO]2017/4/11 13:01:40任务号:1704110132,到达入库站台:04 
+2017/4/11 13:02:02 [INFO]2017/4/11 13:02:022号堆垛机下发急停命令 
+2017/4/11 13:02:57 [INFO]2017/4/11 13:02:57退出系统 
+2017/4/11 13:31:04 [ERROR]2017/4/11 13:31:04初始化处理失败请检查配置，原因：Failed to write OPC,Reason:Timeout, e.g. due to a broken connection. 
+2017/4/11 13:31:04 [INFO]2017/4/11 13:31:04CraneProcess中CraneTaskFinished出错：Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/4/11 13:31:19 [ERROR]2017/4/11 13:31:19InStockToStationProcess出错，原因：Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/4/11 13:31:41 [INFO]2017/4/11 13:31:41任务号：1704110005手动更新为：7 
+2017/4/11 13:33:03 [INFO]2017/4/11 13:33:03任务号：1704110002手动更新为：7 
+2017/4/11 20:21:53 [INFO]2017/4/11 20:21:53退出系统 

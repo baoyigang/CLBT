@@ -1,0 +1,47 @@
+2017/3/15 13:24:02 [ERROR]2017/3/15 13:24:02初始化处理失败请检查配置，原因：向一个无法连接的网络尝试了一个套接字操作。 116.168.1.3:6041 
+2017/3/15 13:24:07 [INFO]2017/3/15 13:24:07退出系统 
+2017/3/15 13:24:41 [ERROR]2017/3/15 13:24:412号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/15 13:24:41 [ERROR]2017/3/15 13:24:413号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/15 13:24:41 [INFO]2017/3/15 13:24:41退出系统 
+2017/3/15 13:25:03 [ERROR]2017/3/15 13:25:032号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/15 13:25:03 [ERROR]2017/3/15 13:25:033号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/15 13:25:18 [ERROR]2017/3/15 13:25:182号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/15 13:25:18 [ERROR]2017/3/15 13:25:183号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/15 13:25:33 [ERROR]2017/3/15 13:25:332号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/15 13:25:34 [ERROR]2017/3/15 13:25:343号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/15 13:25:48 [ERROR]2017/3/15 13:25:482号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/15 13:25:49 [ERROR]2017/3/15 13:25:493号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/15 13:26:03 [ERROR]2017/3/15 13:26:032号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/15 13:26:04 [ERROR]2017/3/15 13:26:043号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/15 13:26:18 [ERROR]2017/3/15 13:26:182号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/15 13:26:19 [ERROR]2017/3/15 13:26:193号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/15 13:26:33 [ERROR]2017/3/15 13:26:332号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/15 13:26:34 [ERROR]2017/3/15 13:26:343号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/15 13:26:48 [ERROR]2017/3/15 13:26:482号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/15 13:26:49 [ERROR]2017/3/15 13:26:493号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/15 13:27:03 [ERROR]2017/3/15 13:27:032号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/15 13:27:04 [ERROR]2017/3/15 13:27:043号堆垛机监控故障:Failed to Read OPC,Reason：Timeout, e.g. due to a broken connection. 
+2017/3/15 13:55:19 [ERROR]2017/3/15 13:55:19初始化处理失败请检查配置，原因：Object reference not set to an instance of an object. 
+2017/3/15 13:55:24 [INFO]2017/3/15 13:55:24退出系统 
+2017/3/15 14:10:36 [ERROR]2017/3/15 14:10:36初始化处理失败请检查配置，原因：Object reference not set to an instance of an object. 
+2017/3/15 14:10:39 [INFO]2017/3/15 14:10:39退出系统 
+2017/3/15 14:10:52 [ERROR]2017/3/15 14:10:52初始化处理失败请检查配置，原因：Object reference not set to an instance of an object. 
+2017/3/15 14:11:00 [INFO]2017/3/15 14:11:00退出系统 
+2017/3/15 14:12:29 [ERROR]2017/3/15 14:12:29初始化处理失败请检查配置，原因：Object reference not set to an instance of an object. 
+2017/3/15 14:14:08 [INFO]2017/3/15 14:14:08退出系统 
+2017/3/15 14:14:52 [ERROR]2017/3/15 14:14:52初始化处理失败请检查配置，原因：Object reference not set to an instance of an object. 
+2017/3/15 14:14:56 [INFO]2017/3/15 14:14:56退出系统 
+2017/3/15 14:15:11 [ERROR]2017/3/15 14:15:11初始化处理失败请检查配置，原因：Object reference not set to an instance of an object. 
+2017/3/15 14:15:13 [INFO]2017/3/15 14:15:13退出系统 
+2017/3/15 14:15:42 [ERROR]2017/3/15 14:15:42初始化处理失败请检查配置，原因：Object reference not set to an instance of an object. 
+2017/3/15 14:15:53 [INFO]2017/3/15 14:15:53退出系统 
+2017/3/15 14:16:32 [ERROR]2017/3/15 14:16:32初始化处理失败请检查配置，原因：Object reference not set to an instance of an object. 
+2017/3/15 14:16:36 [INFO]2017/3/15 14:16:36退出系统 
+2017/3/15 14:16:39 [ERROR]2017/3/15 14:16:39初始化处理失败请检查配置，原因：Object reference not set to an instance of an object. 
+2017/3/15 14:16:43 [INFO]2017/3/15 14:16:43退出系统 
+2017/3/15 14:22:27 [ERROR]2017/3/15 14:22:27初始化处理失败请检查配置，原因：Object reference not set to an instance of an object. 
+2017/3/15 14:22:47 [INFO]2017/3/15 14:22:47退出系统 
+2017/3/15 14:23:36 [ERROR]2017/3/15 14:23:36初始化处理失败请检查配置，原因：Object reference not set to an instance of an object. 
+2017/3/15 14:23:39 [INFO]2017/3/15 14:23:39退出系统 
+2017/3/15 14:24:07 [ERROR]2017/3/15 14:24:07初始化处理失败请检查配置，原因：Object reference not set to an instance of an object. 
+2017/3/15 14:24:10 [INFO]2017/3/15 14:24:10退出系统 

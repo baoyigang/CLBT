@@ -1,0 +1,11 @@
+2017/12/6 17:14:26 :  send: ---> <?xml version="1.0" encoding="GB2312" standalone="yes"?>
+<DATASETS>
+<Operation>BatchInStock</Operation>
+<DATASET>
+<BatchNo>111</BatchNo>
+<ProductCode>01010101</ProductCode>
+<AreaCode>001</AreaCode>
+<CellCode>002001001</CellCode>
+</DATASET>
+</DATASETS>
+}
